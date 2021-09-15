@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding-top:800px;        
+}
+.profile{
+    width: 175px;
+    margin-bottom:50px;
+    border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#0c61eb 0%,#2deb0c 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.inner { 
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu{
+    list-style: none;
+    font-family:fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor:pointer;
+}
+.links{
+    float: left;
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+}
+.links:hover{
+    background-color:plum;
+    font-size: 25px;
+}  
+#bio{
+    padding: 50px;
+    text-align: center
+}
+#name{
+    font-family: 'Tourney', cursive;
+}
+#videos{
+    text-align: center;
+}
+.img1{
+    text-align: center;
+    height: 200px;
+    width: 300px;     
+}
+#wiki{
+     text-align: center;
+}
+#contacts{
+    text-align: center;
+}
